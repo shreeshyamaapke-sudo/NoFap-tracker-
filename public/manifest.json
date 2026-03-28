@@ -1,0 +1,15 @@
+{
+  "name": "NoFap Journey",
+  "short_name": "NoFap",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#010409",
+  "theme_color": "#30a14e",
+  "icons": [
+    {
+      "src": "https://fav.farm/💪",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
