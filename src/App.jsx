@@ -8,8 +8,10 @@ const MONTHS = [
 ];
 
 const WEEK = ["S","M","T","W","T","F","S"];
-const TODAY_MONTH = 0;
-const TODAY_DAY = 28;
+const _d = new Date();
+const _monthMap = {2:0, 3:1, 4:2, 5:3}; // JS month: March=2,April=3,May=4,June=5
+const TODAY_MONTH = _monthMap[_d.getMonth()] ?? 3;
+const TODAY_DAY = _d.getDate();
 
 const HINDI_QUOTES = [
   "🔥 तू वो नहीं जो तूने किया — तू वो है जो तू बन सकता है।",
